@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tejasvi's Takeaway | Fresh Roti & Puri Packs in Suva, Fiji</title>
+<meta name="description" content="Order fresh Fijian-style roti, puri and curry packs from Tejasvi's Takeaway in Suva. Affordable takeaway meals, catering and bulk orders available. Call 9121389 today." />
+<meta name="keywords" content="roti in Suva, puri in Suva, Fiji takeaway food, fresh roti Fiji, fresh puri Fiji, breakfast takeaway Suva, Indian food Suva, catering Suva Fiji, event food catering Fiji, homemade roti Fiji, affordable takeaway Suva, bulk food orders Fiji" />
+
+<!-- Open Graph -->
+<meta property="og:title" content="Tejasvi's Takeaway | Fresh Roti & Puri Packs in Suva, Fiji" />
+<meta property="og:description" content="Freshly made roti, puri and curry packs in Suva. Order by phone, Viber or Facebook Messenger. Catering and bulk orders welcome." />
+<meta property="og:type" content="restaurant" />
+<meta property="og:locale" content="en_FJ" />
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='46' fill='%23E8A33D'/%3E%3Ccircle cx='50' cy='50' r='46' fill='none' stroke='%23AC4429' stroke-width='5'/%3E%3C/svg%3E" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,500;1,9..144,700&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Kalam:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- Structured data: Local Business / Restaurant -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Tejasvi's Takeaway",
+  "image": "https://example.com/tejasvi-takeaway-storefront.jpg",
+  "@id": "https://example.com/#business",
+  "url": "https://example.com/",
+  "telephone": "+6799121389",
+  "servesCuisine": ["Fijian", "Indian", "Takeaway"],
+  "priceRange": "$",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Suva",
+    "addressRegion": "Central Division",
+    "addressCountry": "FJ"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -18.1416,
+    "longitude": 178.4419
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "06:00",
+      "closes": "18:00"
+    }
+  ],
+  "menu": "https://example.com/#menu",
+  "acceptsReservations": "False",
+  "sameAs": [
+    "https://www.facebook.com/TejasviTakeaway"
+  ],
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://m.me/TejasviTakeaway",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform",
+        "http://schema.org/MobileWebPlatform"
+      ]
+    },
+    "deliveryMethod": "http://purl.org/goodrelations/v1#PickUp"
+  }
+}
+</script>
+
+<style>
+  :root{
+    --cream:#FBF1E3;
+    --paper:#FFFCF6;
+    --charcoal:#2B2018;
+    --charcoal-soft:#4A3B2E;
+    --turmeric:#E8A33D;
+    --turmeric-deep:#D2871F;
+    --curry-red:#AC4429;
+    --curry-red-deep:#8E351E;
+    --leaf:#6F8052;
+    --board:#33402A;
+    --board-edge:#5C4427;
+    --chalk:#F6F1E2;
+    --shadow: 0 10px 30px -12px rgba(43,32,24,0.25);
+    --radius: 18px;
+    --max: 1180px;
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    font-family:'DM Sans', sans-serif;
+    color:var(--charcoal);
+    background:var(--cream);
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  img{max-width:100%; display:block;}
+  a{color:inherit;}
+  .wrap{max-width:var(--max); margin:0 auto; padding:0 24px;}
+
+  h1,h2,h3,h4{
+    font-family:'Fraunces', serif;
+    line-height:1.1;
+    margin:0;
+    color:var(--charcoal);
+    font-weight:700;
+  }
+  h1 em, h2 em, .accent-em{
+    font-style:italic;
+    font-weight:500;
+    color:var(--curry-red);
+  }
+  p{margin:0;}
+
+  /* ---------- Header ---------- */
+  header{
+    position:sticky; top:0; z-index:50;
+    background:rgba(251,241,227,0.92);
+    backdrop-filter: blur(8px);
+    border-bottom:1px solid rgba(43,32,24,0.08);
+  }
+  .nav{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:14px 0;
+  }
+  .logo{
+    display:flex; align-items:center; gap:10px;
+    font-family:'Fraunces', serif; font-weight:700; font-size:1.35rem;
+    letter-spacing:0.01em;
+    text-decoration:none;
+    color:var(--charcoal);
+  }
+  .logo-mark{
+    width:34px; height:34px; border-radius:50%;
+    background: radial-gradient(circle at 35% 30%, #FCD98A 0%, var(--turmeric) 55%, var(--turmeric-deep) 100%);
+    border:2px solid var(--curry-red);
+    flex-shrink:0;
+  }
+  .logo span{color:var(--curry-red); font-style:italic; font-weight:500;}
+
+  nav.links{
+    display:flex; align-items:center; gap:28px;
+    font-size:0.95rem; font-weight:500;
+  }
+  nav.links a{ text-decoration:none; color:var(--charcoal-soft); transition:color .2s; }
+  nav.links a:hover{ color:var(--curry-red); }
+
+  .nav-cta{
+    display:flex; align-items:center; gap:10px;
+  }
+  .menu-toggle{
+    display:none;
+    background:none; border:none; cursor:pointer;
+    width:42px; height:42px; border-radius:10px;
+    align-items:center; justify-content:center;
+  }
+  .menu-toggle span, .menu-toggle::before, .menu-toggle::after{
+    content:''; display:block; width:20px; height:2px; background:var(--charcoal);
+    margin:3px auto; border-radius:2px;
+  }
+
+  /* ---------- Buttons ---------- */
+  .btn{
+    display:inline-flex; align-items:center; justify-content:center; gap:8px;
+    padding:13px 26px;
+    border-radius:999px;
+    font-weight:700; font-size:0.95rem;
+    text-decoration:none;
+    border:2px solid transparent;
+    cursor:pointer;
+    transition: transform .15s ease, box-shadow .15s ease, background .15s ease, color .15s ease;
+    white-space:nowrap;
+  }
+  .btn:active{ transform: translateY(1px) scale(0.99); }
+  .btn-primary{
+    background:var(--curry-red);
+    color:var(--chalk);
+    box-shadow: var(--shadow);
+  }
+  .btn-primary:hover{ background:var(--curry-red-deep); box-shadow:0 14px 28px -12px rgba(140,53,30,0.55); }
+  .btn-outline{
+    background:transparent;
+    border-color:var(--charcoal);
+    color:var(--charcoal);
+  }
+  .btn-outline:hover{ background:var(--charcoal); color:var(--chalk); }
+  .btn-ghost{
+    background:rgba(43,32,24,0.06);
+    color:var(--charcoal);
+  }
+  .btn-ghost:hover{ background:rgba(43,32,24,0.12); }
+  .btn-sm{ padding:9px 18px; font-size:0.85rem; }
+  .btn-block{ width:100%; }
+
+  /* ---------- Hero ---------- */
+  .hero{
+    padding:64px 0 56px;
+    display:grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap:48px;
+    align-items:center;
+  }
+  .eyebrow{
+    display:inline-flex; align-items:center; gap:8px;
+    font-size:0.78rem; letter-spacing:0.18em; text-transform:uppercase;
+    font-weight:700; color:var(--curry-red);
+    margin-bottom:18px;
+  }
+  .eyebrow::before{
+    content:''; width:8px; height:8px; border-radius:50%;
+    background:var(--turmeric); display:inline-block;
+    box-shadow:0 0 0 4px rgba(232,163,61,0.25);
+  }
+  .hero h1{
+    font-size: clamp(2.4rem, 5.2vw, 3.8rem);
+    letter-spacing:-0.01em;
+  }
+  .hero .lead{
+    margin-top:20px;
+    font-size:1.1rem;
+    color:var(--charcoal-soft);
+    max-width:46ch;
+  }
+  .cta-row{
+    display:flex; flex-wrap:wrap; gap:14px;
+    margin-top:32px;
+  }
+  .hero-meta{
+    display:flex; flex-wrap:wrap; gap:10px;
+    margin-top:28px;
+  }
+  .chip{
+    font-size:0.82rem; font-weight:600;
+    background:var(--paper);
+    border:1px solid rgba(43,32,24,0.08);
+    border-radius:999px;
+    padding:8px 16px;
+    display:flex; align-items:center; gap:8px;
+    color:var(--charcoal-soft);
+  }
+  .chip svg{ width:14px; height:14px; flex-shrink:0; color:var(--leaf); }
+
+  /* Hero art: tawa illustration */
+  .hero-art{
+    position:relative;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .tawa-wrap{
+    position:relative;
+    width:min(100%, 420px);
+    aspect-ratio:1/1;
+  }
+  .tawa-wrap svg{ width:100%; height:100%; }
+  .steam{
+    transform-origin:center bottom;
+    animation: steam-rise 4s ease-in-out infinite;
+    opacity:0;
+  }
+  .steam.s2{ animation-delay:1.2s; }
+  .steam.s3{ animation-delay:2.4s; }
+  @keyframes steam-rise{
+    0%{ opacity:0; transform: translateY(0) scale(1); }
+    20%{ opacity:0.55; }
+    80%{ opacity:0.15; }
+    100%{ opacity:0; transform: translateY(-30px) scale(1.15); }
+  }
+  @media (prefers-reduced-motion: reduce){
+    .steam{ animation:none; opacity:0.3; }
+  }
+
+  /* ---------- Section basics ---------- */
+  section{ padding:72px 0; }
+  .section-head{
+    max-width:640px; margin:0 0 40px;
+  }
+  .section-head .eyebrow{ margin-bottom:14px; }
+  .section-head h2{ font-size:clamp(1.8rem, 3.4vw, 2.6rem); }
+  .section-head p{ margin-top:14px; color:var(--charcoal-soft); font-size:1.05rem; }
+  .section-head.center{ margin:0 auto 44px; text-align:center; }
+  .section-head.center .eyebrow::before{ display:none; }
+  .section-head.center .eyebrow{ justify-content:center; width:100%; }
+
+  /* ---------- Today's Board (chalkboard menu) ---------- */
+  .board-section{
+    background: var(--charcoal);
+    border-radius:28px;
+    padding:0;
+    overflow:hidden;
+    box-shadow: var(--shadow);
+  }
+  .board-frame{
+    background:
+      repeating-linear-gradient(120deg, rgba(255,255,255,0.025) 0px, rgba(255,255,255,0.025) 2px, transparent 2px, transparent 60px),
+      linear-gradient(160deg, var(--board) 0%, #2A3522 100%);
+    border: 14px solid var(--board-edge);
+    border-image: linear-gradient(135deg, #7A5A33, #4E3A20, #7A5A33) 1;
+    border-radius:18px;
+    margin:14px;
+    padding: 44px clamp(20px, 5vw, 56px) 52px;
+  }
+  .board-frame .section-head h2,
+  .board-frame .section-head p,
+  .board-frame .eyebrow{
+    color: var(--chalk);
+  }
+  .board-frame .eyebrow{ color:var(--turmeric); }
+  .board-frame .section-head h2{
+    font-family:'Kalam', cursive;
+    font-weight:700;
+    text-shadow: 0 0 1px rgba(246,241,226,0.4);
+  }
+  .board-frame .section-head p{ color:rgba(246,241,226,0.72); }
+
+  .roti-line{
+    display:flex; align-items:baseline; justify-content:space-between; gap:24px;
+    flex-wrap:wrap;
+    border-bottom:2px dashed rgba(246,241,226,0.18);
+    padding-bottom:22px; margin-bottom:32px;
+    font-family:'Kalam', cursive;
+    color:var(--chalk);
+  }
+  .roti-line .roti-label{
+    font-size:clamp(1.5rem, 3vw, 2rem); font-weight:700;
+  }
+  .roti-line .roti-price{
+    font-size:clamp(1.5rem, 3vw, 2rem); font-weight:700;
+    color:var(--turmeric);
+  }
+  .roti-line small{
+    display:block; font-family:'DM Sans', sans-serif; font-weight:400;
+    font-size:0.9rem; color:rgba(246,241,226,0.6); margin-top:4px;
+  }
+
+  .puri-grid{
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap:14px;
+    margin-bottom:36px;
+  }
+  .puri-card{
+    background:rgba(246,241,226,0.05);
+    border:1px solid rgba(246,241,226,0.14);
+    border-radius:14px;
+    padding:18px 10px;
+    text-align:center;
+    color:var(--chalk);
+    transition: background .2s, transform .2s;
+  }
+  .puri-card:hover{ background:rgba(246,241,226,0.1); transform:translateY(-3px); }
+  .puri-icon{
+    width:34px; height:34px; margin:0 auto 10px;
+    border-radius:50%;
+    background: radial-gradient(circle at 35% 30%, #FCD98A 0%, var(--turmeric) 60%, var(--turmeric-deep) 100%);
+    box-shadow: 0 3px 0 0 rgba(0,0,0,0.18);
+  }
+  .puri-qty{
+    font-family:'Kalam', cursive; font-weight:700; font-size:1.15rem;
+  }
+  .puri-price{
+    font-family:'Kalam', cursive; font-weight:700; font-size:1.4rem;
+    color:var(--turmeric); margin-top:2px;
+  }
+
+  .combo-card{
+    background:rgba(246,241,226,0.06);
+    border:1px solid rgba(246,241,226,0.16);
+    border-radius:16px;
+    padding:26px clamp(18px, 4vw, 32px);
+    display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:20px;
+    color:var(--chalk);
+  }
+  .combo-card h3{ color:var(--chalk); font-family:'Fraunces', serif; font-size:1.3rem; }
+  .combo-card p{ color:rgba(246,241,226,0.72); margin-top:8px; max-width:46ch; }
+  .combo-card .combo-tags{
+    display:flex; gap:8px; flex-wrap:wrap; margin-top:12px;
+  }
+  .combo-card .combo-tags span{
+    font-size:0.78rem; font-weight:700; letter-spacing:0.04em;
+    background:rgba(232,163,61,0.16); color:var(--turmeric);
+    border:1px solid rgba(232,163,61,0.35);
+    border-radius:999px; padding:5px 12px;
+  }
+
+  .board-note{
+    margin-top:28px; text-align:center;
+    font-family:'Kalam', cursive; font-size:1rem;
+    color:rgba(246,241,226,0.65);
+  }
+
+  /* ---------- Why choose us ---------- */
+  .why-grid{
+    display:grid; grid-template-columns:repeat(4, 1fr); gap:20px;
+  }
+  .why-card{
+    background:var(--paper);
+    border:1px solid rgba(43,32,24,0.07);
+    border-radius:var(--radius);
+    padding:26px 22px;
+    transition: transform .2s, box-shadow .2s;
+  }
+  .why-card:hover{ transform:translateY(-4px); box-shadow:var(--shadow); }
+  .why-icon{
+    width:44px; height:44px; border-radius:12px;
+    background: rgba(232,163,61,0.16);
+    display:flex; align-items:center; justify-content:center;
+    margin-bottom:16px;
+  }
+  .why-icon svg{ width:22px; height:22px; color:var(--curry-red); }
+  .why-card h3{ font-size:1.08rem; font-weight:700; margin-bottom:6px; }
+  .why-card p{ font-size:0.92rem; color:var(--charcoal-soft); }
+
+  /* ---------- Catering ---------- */
+  .catering{
+    display:grid; grid-template-columns: 0.95fr 1.05fr; gap:48px; align-items:start;
+  }
+  .event-grid{
+    display:grid; grid-template-columns:repeat(2,1fr); gap:10px;
+    margin-top:24px;
+  }
+  .event-chip{
+    display:flex; align-items:center; gap:10px;
+    background:var(--paper); border:1px solid rgba(43,32,24,0.07);
+    border-radius:12px; padding:12px 14px; font-size:0.92rem; font-weight:600;
+  }
+  .event-chip svg{ width:16px; height:16px; color:var(--leaf); flex-shrink:0; }
+
+  .form-card{
+    background:var(--paper);
+    border-radius:24px;
+    border:1px solid rgba(43,32,24,0.07);
+    box-shadow:var(--shadow);
+    padding:clamp(24px, 4vw, 40px);
+  }
+  .form-card h3{ font-size:1.4rem; margin-bottom:6px; }
+  .form-card .sub{ color:var(--charcoal-soft); font-size:0.95rem; margin-bottom:24px; }
+  .field-row{ display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+  .field{ margin-bottom:18px; }
+  .field label{
+    display:block; font-size:0.85rem; font-weight:700; margin-bottom:6px; color:var(--charcoal);
+  }
+  .field input, .field textarea, .field select{
+    width:100%; padding:12px 14px;
+    border-radius:10px; border:1.5px solid rgba(43,32,24,0.14);
+    font-family:'DM Sans', sans-serif; font-size:0.95rem;
+    background:#fff; color:var(--charcoal);
+    transition: border-color .2s, box-shadow .2s;
+  }
+  .field input:focus, .field textarea:focus, .field select:focus{
+    outline:none; border-color:var(--turmeric);
+    box-shadow:0 0 0 4px rgba(232,163,61,0.18);
+  }
+  .field textarea{ min-height:96px; resize:vertical; }
+  .form-note{
+    font-size:0.85rem; color:var(--charcoal-soft); margin-top:14px;
+  }
+
+  /* ---------- Testimonials ---------- */
+  .testimonial-grid{
+    display:grid; grid-template-columns:repeat(3, 1fr); gap:22px;
+  }
+  .testimonial{
+    background:var(--paper); border-radius:var(--radius);
+    border:1px solid rgba(43,32,24,0.07);
+    padding:26px; display:flex; flex-direction:column; gap:14px;
+  }
+  .stars{ display:flex; gap:4px; color:var(--turmeric); }
+  .stars svg{ width:16px; height:16px; }
+  .testimonial p.quote{ font-size:0.97rem; color:var(--charcoal); }
+  .testimonial .who{
+    display:flex; align-items:center; gap:12px; margin-top:auto;
+  }
+  .avatar{
+    width:38px; height:38px; border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    font-family:'Fraunces', serif; font-weight:700; color:#fff; font-size:0.95rem;
+    flex-shrink:0;
+  }
+  .who .name{ font-weight:700; font-size:0.9rem; }
+  .who .loc{ font-size:0.8rem; color:var(--charcoal-soft); }
+
+  /* ---------- Order strip ---------- */
+  .order-strip{
+    background: linear-gradient(135deg, var(--curry-red) 0%, var(--curry-red-deep) 100%);
+    border-radius:28px;
+    padding:clamp(36px, 6vw, 56px);
+    color:var(--chalk);
+    display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:24px;
+  }
+  .order-strip h2{ color:var(--chalk); font-size:clamp(1.6rem, 3.6vw, 2.4rem); max-width:18ch; }
+  .order-strip p{ color:rgba(246,241,226,0.85); margin-top:10px; max-width:38ch; }
+  .order-strip .cta-row .btn-outline{
+    border-color:rgba(246,241,226,0.55); color:var(--chalk);
+  }
+  .order-strip .cta-row .btn-outline:hover{ background:rgba(246,241,226,0.14); color:var(--chalk); }
+  .order-strip .btn-primary{ background:var(--chalk); color:var(--curry-red-deep); }
+  .order-strip .btn-primary:hover{ background:#fff; }
+
+  /* ---------- Footer ---------- */
+  footer{
+    background:var(--charcoal); color:var(--chalk);
+    padding:64px 0 28px;
+  }
+  .footer-grid{
+    display:grid; grid-template-columns:1.4fr 1fr 1fr 1fr; gap:36px;
+    padding-bottom:36px; border-bottom:1px solid rgba(246,241,226,0.12);
+  }
+  .footer-grid h4{ color:var(--chalk); font-size:0.95rem; margin-bottom:16px; letter-spacing:0.04em; text-transform:uppercase; font-family:'DM Sans',sans-serif; font-weight:700; }
+  .footer-grid p, .footer-grid a{ color:rgba(246,241,226,0.7); font-size:0.92rem; text-decoration:none; }
+  .footer-grid a:hover{ color:var(--turmeric); }
+  .footer-grid ul{ list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:10px; }
+  .footer-logo{ display:flex; align-items:center; gap:10px; font-family:'Fraunces',serif; font-size:1.3rem; font-weight:700; color:var(--chalk); margin-bottom:14px; }
+  .footer-logo span{ color:var(--turmeric); font-style:italic; font-weight:500; }
+  .footer-contact-item{ display:flex; align-items:center; gap:10px; }
+  .footer-contact-item svg{ width:16px; height:16px; color:var(--turmeric); flex-shrink:0; }
+  .bottom-bar{
+    display:flex; flex-wrap:wrap; justify-content:space-between; gap:12px;
+    padding-top:24px; font-size:0.82rem; color:rgba(246,241,226,0.5);
+  }
+
+  /* ---------- Sticky mobile order bar ---------- */
+  .mobile-order-bar{
+    display:none;
+    position:fixed; bottom:0; left:0; right:0; z-index:60;
+    background:var(--paper);
+    border-top:1px solid rgba(43,32,24,0.1);
+    padding:10px 14px;
+    box-shadow:0 -8px 24px -10px rgba(43,32,24,0.25);
+    gap:10px;
+  }
+  .mobile-order-bar .btn{ flex:1; padding:12px 10px; font-size:0.88rem; }
+
+  /* ---------- Responsive ---------- */
+  @media (max-width: 980px){
+    .hero{ grid-template-columns:1fr; gap:36px; padding-top:36px; }
+    .hero-art{ order:-1; }
+    .tawa-wrap{ width:min(70%, 280px); margin:0 auto; }
+    .why-grid{ grid-template-columns:repeat(2,1fr); }
+    .catering{ grid-template-columns:1fr; }
+    .testimonial-grid{ grid-template-columns:repeat(2,1fr); }
+    .puri-grid{ grid-template-columns:repeat(3,1fr); }
+    .footer-grid{ grid-template-columns:1fr 1fr; }
+  }
+  @media (max-width: 720px){
+    nav.links{ display:none; }
+    .menu-toggle{ display:flex; }
+    .nav-cta .btn-outline{ display:none; }
+    .why-grid{ grid-template-columns:1fr; }
+    .testimonial-grid{ grid-template-columns:1fr; }
+    .puri-grid{ grid-template-columns:repeat(2,1fr); }
+    .field-row{ grid-template-columns:1fr; }
+    .footer-grid{ grid-template-columns:1fr; }
+    .order-strip{ flex-direction:column; align-items:flex-start; }
+    body{ padding-bottom:64px; }
+    .mobile-order-bar{ display:flex; }
+    section{ padding:52px 0; }
+    .board-frame{ padding:32px 18px 40px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header>
+  <div class="wrap nav">
+    <a href="#top" class="logo"><span class="logo-mark"></span>Tejasvi<span>'s</span>&nbsp;Takeaway</a>
+    <nav class="links">
+      <a href="#menu">Menu</a>
+      <a href="#why">Why Us</a>
+      <a href="#catering">Catering</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="tel:+6799121389" class="btn btn-outline btn-sm">Call 9121389</a>
+      <a href="#order" class="btn btn-primary btn-sm">Order Now</a>
+      <button class="menu-toggle" aria-label="Toggle menu"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap" id="top">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="hero-text">
+      <p class="eyebrow">Suva, Fiji &middot; Fresh Every Day</p>
+      <h1>Fresh Fijian-Style <em>Roti</em> &amp; <em>Puri</em>, Made Daily</h1>
+      <p class="lead">Affordable, delicious, and freshly prepared roti, puri and curry packs &mdash; ready for breakfast, lunch, dinner and all-day dining in Suva. Perfect for the family table, the office, or your next big event.</p>
+      <div class="cta-row" id="order">
+        <a href="#menu" class="btn btn-primary">Order Now</a>
+        <a href="tel:+6799121389" class="btn btn-outline">Call 9121389</a>
+        <a href="https://m.me/TejasviTakeaway" target="_blank" rel="noopener" class="btn btn-ghost">Message on Facebook</a>
+      </div>
+      <div class="hero-meta">
+        <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>Made fresh daily</span>
+        <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 6v6l4 2M12 22a10 10 0 100-20 10 10 0 000 20z"/></svg>Available daily &mdash; breakfast &amp; all day</span>
+        <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 7h18M3 12h18M3 17h18"/></svg>Bulk &amp; event orders welcome</span>
+      </div>
+    </div>
+    <div class="hero-art">
+      <div class="tawa-wrap">
+        <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+          <!-- tawa / griddle -->
+          <circle cx="200" cy="220" r="170" fill="#3A2C20"/>
+          <circle cx="200" cy="220" r="170" fill="none" stroke="#231A12" stroke-width="6"/>
+          <circle cx="200" cy="220" r="150" fill="#4A3A2A"/>
+          <!-- puri / roti stack -->
+          <ellipse cx="200" cy="235" rx="118" ry="34" fill="#C97A1F"/>
+          <ellipse cx="200" cy="218" rx="112" ry="32" fill="#E8A33D"/>
+          <ellipse cx="200" cy="200" rx="100" ry="28" fill="#F2C265"/>
+          <ellipse cx="170" cy="186" rx="46" ry="14" fill="#FCD98A" opacity="0.6"/>
+          <!-- steam -->
+          <g stroke="#FBF1E3" stroke-width="6" stroke-linecap="round" fill="none">
+            <path class="steam s1" d="M140 150 C 130 110, 160 110, 150 70"/>
+            <path class="steam s2" d="M200 150 C 190 110, 220 110, 210 70"/>
+            <path class="steam s3" d="M260 150 C 250 110, 280 110, 270 70"/>
+          </g>
+          <!-- handle -->
+          <rect x="362" y="210" width="34" height="16" rx="8" fill="#231A12"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TODAY'S BOARD / MENU ================= -->
+  <section id="menu" class="board-section">
+    <div class="board-frame">
+      <div class="section-head center">
+        <p class="eyebrow">Today's Board</p>
+        <h2>Roti, Puri &amp; Curry Pack Prices</h2>
+        <p>Chalked up fresh every morning &mdash; all prices in FJD. Pop in, call, or message us to place your order.</p>
+      </div>
+
+      <div class="roti-line">
+        <div>
+          <span class="roti-label">Fresh Roti</span>
+          <small>Soft, hand-rolled and cooked to order</small>
+        </div>
+        <span class="roti-price">$1.00 each</span>
+      </div>
+
+      <div class="puri-grid">
+        <div class="puri-card">
+          <div class="puri-icon"></div>
+          <div class="puri-qty">10 Puri</div>
+          <div class="puri-price">$5</div>
+        </div>
+        <div class="puri-card">
+          <div class="puri-icon"></div>
+          <div class="puri-qty">20 Puri</div>
+          <div class="puri-price">$10</div>
+        </div>
+        <div class="puri-card">
+          <div class="puri-icon"></div>
+          <div class="puri-qty">30 Puri</div>
+          <div class="puri-price">$15</div>
+        </div>
+        <div class="puri-card">
+          <div class="puri-icon"></div>
+          <div class="puri-qty">40 Puri</div>
+          <div class="puri-price">$20</div>
+        </div>
+        <div class="puri-card">
+          <div class="puri-icon"></div>
+          <div class="puri-qty">50 Puri</div>
+          <div class="puri-price">$25</div>
+        </div>
+        <div class="puri-card">
+          <div class="puri-icon"></div>
+          <div class="puri-qty">100 Puri</div>
+          <div class="puri-price">$50</div>
+        </div>
+      </div>
+
+      <div class="combo-card">
+        <div>
+          <h3>Curry &amp; Roti / Puri Combo Packs</h3>
+          <p>Add a homemade curry to your order &mdash; served with your choice of 20 Roti or 30 Puri. Great for small family dinners or a shared office lunch.</p>
+          <div class="combo-tags">
+            <span>Choice of curry</span>
+            <span>20 Roti or 30 Puri included</span>
+            <span>Ask for today's price</span>
+          </div>
+        </div>
+        <a href="https://m.me/TejasviTakeaway" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Ask About Combo Packs</a>
+      </div>
+
+      <p class="board-note">Taking orders for weekend &amp; weekday delivery &mdash; message us on Facebook or call/Viber 9121389</p>
+    </div>
+  </section>
+
+  <!-- ================= WHY CHOOSE US ================= -->
+  <section id="why">
+    <div class="section-head center">
+      <p class="eyebrow">Why Suva Chooses Us</p>
+      <h2>Homemade Taste, Honest Prices</h2>
+      <p>From a single roti to a hundred puri for a function, Tejasvi's Takeaway delivers the same fresh, authentic Fijian-style cooking every time.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg></div>
+        <h3>Freshly Made Every Day</h3>
+        <p>Roti and puri are prepared fresh daily &mdash; nothing sits around, so every order is hot, soft and full of flavour.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M4 19.5A2.5 2.5 0 0 0 6.5 22H20V2H6.5A2.5 2.5 0 0 0 4 4.5z"/></svg></div>
+        <h3>Authentic Fijian-Style Recipes</h3>
+        <p>Traditional family recipes and methods, the same way roti and puri have been made for generations in Fiji.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.59 13.41 11 3.83A2 2 0 0 0 9.59 3.24L4 3v5.59c0 .53.21 1.04.59 1.41l9.59 9.59a2 2 0 0 0 2.83 0l3.58-3.58a2 2 0 0 0 0-2.6z"/><circle cx="7.5" cy="7.5" r="1.5" fill="currentColor"/></svg></div>
+        <h3>Affordable Pricing</h3>
+        <p>Roti from $1 and puri packs from $5 &mdash; great everyday value for individuals, families and offices.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 7h18M3 12h18M3 17h18"/></svg></div>
+        <h3>Bulk Orders Available</h3>
+        <p>Need 50, 100 or more? We scale up for big orders without losing the homemade quality.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 2v4M16 2v4M3 10h18M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/></svg></div>
+        <h3>Catering for Events</h3>
+        <p>Weddings, birthdays, religious functions, school and corporate events &mdash; we cater for all occasions.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+        <h3>Friendly Local Service</h3>
+        <p>A small local team that knows its customers and treats every order like family.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.69 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.33 1.85.56 2.81.69A2 2 0 0 1 22 16.92z"/></svg></div>
+        <h3>Easy Ordering</h3>
+        <p>Order however suits you &mdash; phone call, Viber message, or Facebook Messenger.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
+        <h3>Reliable for Every Order</h3>
+        <p>From a quick breakfast top-up to a 200-puri function order, we deliver on time, every time.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CATERING ================= -->
+  <section id="catering">
+    <div class="catering">
+      <div>
+        <p class="eyebrow">Catering &amp; Bulk Orders</p>
+        <h2 style="font-size:clamp(1.8rem, 3.4vw, 2.6rem); margin-bottom:14px;">Feeding Your Function, Fresh</h2>
+        <p style="color:var(--charcoal-soft); font-size:1.05rem;">Whatever the occasion, we can prepare roti, puri and curry packs in bulk &mdash; cooked fresh and ready for pick-up at the time you need. Tell us your headcount and date, and we'll take care of the rest.</p>
+        <div class="event-grid">
+          <div class="event-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2M12 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"/></svg>Weddings</div>
+          <div class="event-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v6M5 22h14M5 22v-6h14v6M9 8h6l3 5H6z"/></svg>Birthdays</div>
+          <div class="event-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 22h20M6 22V12l6-7 6 7v10M10 22v-6h4v6"/></svg>Religious Functions</div>
+          <div class="event-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M9 8h1M9 12h1M9 16h1M14 8h1M14 12h1M14 16h1M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16"/></svg>Corporate Events</div>
+          <div class="event-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>Community Gatherings</div>
+          <div class="event-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>School Functions</div>
+          <div class="event-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>Family Celebrations</div>
+        </div>
+      </div>
+
+      <div class="form-card">
+        <h3>Request a Catering Quote</h3>
+        <p class="sub">Fill in your details and we'll get back to you with availability and pricing.</p>
+        <form id="catering-form">
+          <div class="field-row">
+            <div class="field">
+              <label for="cf-name">Name</label>
+              <input type="text" id="cf-name" name="name" placeholder="Your full name" required>
+            </div>
+            <div class="field">
+              <label for="cf-phone">Phone Number</label>
+              <input type="tel" id="cf-phone" name="phone" placeholder="e.g. 9XXXXXX" required>
+            </div>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="cf-guests">Number of Guests</label>
+              <input type="number" id="cf-guests" name="guests" min="1" placeholder="e.g. 50" required>
+            </div>
+            <div class="field">
+              <label for="cf-date">Event Date</label>
+              <input type="date" id="cf-date" name="date" required>
+            </div>
+          </div>
+          <div class="field">
+            <label for="cf-quantity">Quantity of Roti or Puri Required</label>
+            <input type="text" id="cf-quantity" name="quantity" placeholder="e.g. 100 puri and 50 roti">
+          </div>
+          <div class="field">
+            <label for="cf-notes">Additional Notes</label>
+            <textarea id="cf-notes" name="notes" placeholder="Tell us about your event, curry preferences, pick-up time, etc."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Send Catering Request</button>
+          <p class="form-note">Prefer to talk it through? Call or Viber <strong>9121389</strong>, or message us on Facebook &mdash; we usually reply the same day.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TESTIMONIALS ================= -->
+  <section id="reviews">
+    <div class="section-head center">
+      <p class="eyebrow">What Suva Is Saying</p>
+      <h2>Loved by Families, Offices &amp; Functions</h2>
+      <p>A few words from regulars and customers we've catered for around Suva.</p>
+    </div>
+    <div class="testimonial-grid">
+      <div class="testimonial">
+        <div class="stars">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+        </div>
+        <p class="quote">"We order roti most mornings on the way to work and it's always soft and warm, like it just came off the tawa. Best breakfast takeaway near town."</p>
+        <div class="who">
+          <div class="avatar" style="background:var(--curry-red)">P</div>
+          <div>
+            <div class="name">Priya N.</div>
+            <div class="loc">Suva</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <div class="stars">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+        </div>
+        <p class="quote">"Ordered 100 puri and curry for my daughter's birthday and everything was ready right on time, still hot. Guests kept asking where it was from."</p>
+        <div class="who">
+          <div class="avatar" style="background:var(--leaf)">M</div>
+          <div>
+            <div class="name">Mohammed R.</div>
+            <div class="loc">Nasinu</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <div class="stars">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg>
+        </div>
+        <p class="quote">"Prices are very fair for how much you get. We split a 50-puri pack with curry between two families and there was plenty for everyone."</p>
+        <div class="who">
+          <div class="avatar" style="background:var(--turmeric-deep)">S</div>
+          <div>
+            <div class="name">Sera T.</div>
+            <div class="loc">Suva</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ORDER STRIP ================= -->
+  <section>
+    <div class="order-strip">
+      <div>
+        <h2>Hungry? Place Your Order Now</h2>
+        <p>Call, Viber, or message us on Facebook &mdash; pick-up available daily for breakfast and all-day orders.</p>
+      </div>
+      <div class="cta-row">
+        <a href="tel:+6799121389" class="btn btn-primary">Call 9121389</a>
+        <a href="viber://chat?number=%2B6799121389" class="btn btn-outline">Open Viber</a>
+        <a href="https://m.me/TejasviTakeaway" target="_blank" rel="noopener" class="btn btn-outline">Facebook Messenger</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= FOOTER / CONTACT ================= -->
+<footer id="contact">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo"><span class="logo-mark"></span>Tejasvi<span>'s</span>&nbsp;Takeaway</div>
+        <p>Fresh, authentic Fijian-style roti and puri made daily in Suva &mdash; for individuals, families, offices and special events. Proudly serving Suva and surrounding areas including Nasinu, Nausori and Lami.</p>
+      </div>
+      <div>
+        <h4>Order</h4>
+        <ul>
+          <li class="footer-contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.69 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.33 1.85.56 2.81.69A2 2 0 0 1 22 16.92z"/></svg><a href="tel:+6799121389">Call: 9121389</a></li>
+          <li class="footer-contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg><a href="viber://chat?number=%2B6799121389">Viber: 9121389</a></li>
+          <li class="footer-contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg><a href="https://m.me/TejasviTakeaway" target="_blank" rel="noopener">Facebook Messenger</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Hours</h4>
+        <ul>
+          <li>Open daily</li>
+          <li>6:00am &ndash; 6:00pm</li>
+          <li>Breakfast &amp; all-day orders</li>
+          <li>Pre-order for events anytime</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#menu">Today's Board</a></li>
+          <li><a href="#why">Why Choose Us</a></li>
+          <li><a href="#catering">Catering &amp; Bulk Orders</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom-bar">
+      <span>&copy; <span id="year"></span> Tejasvi's Takeaway &mdash; Suva, Fiji. Fresh roti &amp; puri, made daily.</span>
+      <span>Roti &middot; Puri &middot; Curry Packs &middot; Catering &middot; Bulk Orders</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ================= MOBILE STICKY BAR ================= -->
+<div class="mobile-order-bar">
+  <a href="tel:+6799121389" class="btn btn-outline">Call</a>
+  <a href="viber://chat?number=%2B6799121389" class="btn btn-ghost">Viber</a>
+  <a href="https://m.me/TejasviTakeaway" target="_blank" rel="noopener" class="btn btn-primary">Order via FB</a>
+</div>
+
+<script>
+  // Footer year
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // Mobile nav toggle
+  const toggle = document.querySelector('.menu-toggle');
+  const links = document.querySelector('nav.links');
+  toggle.addEventListener('click', () => {
+    const isOpen = links.style.display === 'flex';
+    links.style.display = isOpen ? 'none' : 'flex';
+    links.style.flexDirection = 'column';
+    links.style.position = 'absolute';
+    links.style.top = '64px';
+    links.style.left = '0';
+    links.style.right = '0';
+    links.style.background = 'var(--cream)';
+    links.style.padding = '20px 24px';
+    links.style.gap = '16px';
+    links.style.borderBottom = '1px solid rgba(43,32,24,0.08)';
+  });
+
+  // Catering form: build a mailto/Facebook message so submissions reach the business.
+  // NOTE: This is a static-site fallback. For production, connect this form to a
+  // backend or form service (e.g. Formspree, Getform) so submissions are captured automatically.
+  const cateringForm = document.getElementById('catering-form');
+  cateringForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    const data = new FormData(cateringForm);
+    const lines = [
+      `Catering Request - Tejasvi's Takeaway`,
+      `Name: ${data.get('name')}`,
+      `Phone: ${data.get('phone')}`,
+      `Number of Guests: ${data.get('guests')}`,
+      `Event Date: ${data.get('date')}`,
+      `Quantity of Roti/Puri: ${data.get('quantity') || 'Not specified'}`,
+      `Notes: ${data.get('notes') || 'None'}`
+    ];
+    const body = encodeURIComponent(lines.join('\n'));
+    const subject = encodeURIComponent("Catering Request - Tejasvi's Takeaway");
+    // Opens the user's messaging app via Facebook Messenger as primary channel
+    window.open('https://m.me/TejasviTakeaway', '_blank');
+    alert("Thanks! Please send your details on Facebook Messenger (just opened), or call/Viber 9121389 \u2014 we'll confirm your order shortly.");
+    cateringForm.reset();
+  });
+</script>
+
+</body>
+</html>
